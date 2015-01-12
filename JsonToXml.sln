@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToXml", "JsonToXml.csproj", "{55099128-1E91-4F4E-AAAD-4B40B32D931C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55099128-1E91-4F4E-AAAD-4B40B32D931C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55099128-1E91-4F4E-AAAD-4B40B32D931C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55099128-1E91-4F4E-AAAD-4B40B32D931C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55099128-1E91-4F4E-AAAD-4B40B32D931C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
