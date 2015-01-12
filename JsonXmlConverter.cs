@@ -201,7 +201,7 @@ namespace JsonToXml
                 return "s";
             }
 
-            if (value is int || value is long)
+            if (value is byte || value is short || value is int || value is long)
             {
                 return "i";
             }
