@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
-using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 
 namespace JsonToXml
@@ -12,7 +11,7 @@ namespace JsonToXml
     {
         private const string GuidFormat = "D";
 
-        public static JObject XmlToJson([NotNull] XElement xml)
+        public static JObject XmlToJson(XElement xml)
         {
             if (xml == null) throw new ArgumentNullException("xml");
 
@@ -61,7 +60,7 @@ namespace JsonToXml
             return json;
         }
 
-        public static XElement JsonToXml([NotNull] JObject json, [NotNull] string rootName = "Data")
+        public static XElement JsonToXml(JObject json, string rootName = "Data")
         {
             if (json == null) throw new ArgumentNullException("json");
             if (rootName == null) throw new ArgumentNullException("rootName");
